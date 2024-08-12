@@ -1,0 +1,259 @@
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #13161B;
+  font-size: 14px;
+  background-color: #F2F1F6;
+}
+
+.title {
+  font-size: 48px;
+  font-weight: 500;
+  margin-bottom: 50px;
+}
+
+.main-text {
+  margin-bottom: 30px;
+  color: #000;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.main-text .main-text-title {
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.header {
+  background-image: url(../img/glasses.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  height: 100vh;
+  margin-bottom: 150px;
+}
+
+.header-container {
+  max-width: 1740px;
+  margin: 0 auto;
+  padding: 0 10px;
+  padding-top: 20px;
+}
+
+.header-top {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.logo-img {
+  margin-right: 66px;
+  min-width: 79px;
+  min-height: 65px;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  gap: 0 50px;
+
+}
+
+.menu-item-link {
+  text-transform: uppercase;
+  font-weight: 300;
+  color: #13161B;
+}
+
+.head-tel {
+  text-align: right;
+  margin-left: auto;
+}
+
+.tel {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.time {
+  font-weight: 200;
+}
+
+
+.main {
+  position: relative;
+}
+
+.main-container {
+  max-width: 1450px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+.lences {
+  margin-bottom: 150px;
+}
+
+
+.lences-content-left {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 0 80px;
+  margin-bottom: 30px;
+}
+
+.lences-content-right {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  gap: 0 80px;
+  margin-bottom: 30px;
+}
+
+.lences-text {
+  max-width: 560px;
+}
+
+
+
+.lences-line {
+  border: 1px solid #13161B;
+}
+
+
+.lences-text-h6 {
+  font-weight: 500;
+  font-size: 24px;
+  color: #000;
+  margin-bottom: 40px;
+}
+
+.frames-menu {
+  display: flex;
+  justify-content: space-between;
+  gap: 0 27px;
+}
+
+.frames-menu-item {
+  padding: 23px 30px;
+  background-color: #13161B;
+  color: #Fff;
+  border-radius: 18px;
+  text-align: center;
+}
+
+
+
+.title-shops {
+  text-align: center;
+}
+
+.shops {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px 94px;
+  flex-wrap: wrap;
+}
+
+.footer {
+  padding-top: 44px;
+  padding-bottom: 44px;
+  background-color: #fff;
+}
+
+.contacts {
+  margin-left: auto;
+  font-size: 18px;
+  font-weight: 300;
+  color: #000;
+}
+
+.mytel {
+  margin-bottom: 10px;
+}
+
+.email {
+  margin-bottom: 10px;
+}
+
+.underline {
+  font-weight: 400;
+  text-decoration: underline;
+}
+
+.lences-text-menu {
+  padding-left: 25px;
+}
+
+.lences-text-menu li {
+  list-style: url(../img/glasses-sharp-svgrepo-com\ 1.svg);
+}
+
+
+.lences-content-right img,
+.lences-content-left img {
+  max-width: 100%;
+}
+
+.lences-content-right {
+  align-items: center;
+}
+
+
+.frames-hr {
+  margin-bottom: 30px;
+}
+
+.email a {
+  color: #000;
+}
+
+
+
+.animate-charcter
+{
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #ffffff 0%,
+    #000000 29%,
+    #13161B 67%,
+    #ea8934 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+
+
+

@@ -1,0 +1,62 @@
+@media (max-width:1130px){
+  .header{
+    margin-bottom: 100px;
+  }
+  .logo-img{
+    margin-right: 30px;
+  }
+  .menu{
+    gap: 0 20px;
+  }
+  .shops{
+    gap: 20px 20px;
+    justify-content: center;
+  }
+  .lences{
+    margin-bottom: 100px;
+  }
+  .frames-menu{
+    flex-direction: column;
+    gap: 20px 20px;
+  }
+  .frames-hr{
+    margin-bottom: 20px;
+  }
+}
+@media (max-width:972px){
+  .menu{
+    flex-direction: column;
+  }
+  .logo-img{
+    margin-right: 60px;
+  }
+  .main-text{
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  .lences-content-left,.lences-content-right{
+    gap: 20px 40px;
+  }
+}
+@media (max-width:860px){
+  .lences-content-left,.lences-content-right{
+    flex-direction: column;
+  }
+  .title{
+    text-align: center;
+  }
+}
+@media (max-width:650px){
+  .menu-item-link{
+    font-size: 14px;
+  }
+  .header-top{
+    flex-wrap: wrap;
+  }
+  .title{
+    font-size: 30px;  
+  }
+  .lences-text-h6{
+    font-size: 18px;
+  }
+}
